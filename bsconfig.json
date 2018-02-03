@@ -1,0 +1,8 @@
+{
+  "name": "mangosnake",
+  "sources": "src",
+  "refmt": 3,
+  "reason": { "react-jsx": 2 },
+  "bs-dependencies": ["reason-react"],
+  "package-specs": ["es6-global"]
+}

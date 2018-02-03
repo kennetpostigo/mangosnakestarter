@@ -1,0 +1,20 @@
+{
+  "name": "MangoSnake",
+  "license": "MIT",
+  "scripts": {
+    "dev": "NODE_ENV=development parcel index.html",
+    "watch": "bsb -clean-world && bsb -make-world -w",
+    "prod":
+      "bsb -make-world && NODE_ENV=production parcel build index.html --public-url / && serve ./dist --single",
+    "clean":
+      "bsb -clean-world && rm -rf lib && rm -f .merlin && rm -rf dist && rm -rf .cache && clear"
+  },
+  "dependencies": {
+    "reason-react": "^0.3.2",
+    "serve": "^6.4.9"
+  },
+  "devDependencies": {
+    "bs-platform": "^2.1.0",
+    "parcel-bundler": "^1.5.1"
+  }
+}

@@ -1,0 +1,12 @@
+.DS_Store
+lib
+node_modules*
+.merlin
+*.log
+.bsb.lock
+.next
+.merlin
+.cache
+dist
+.vscode
+yarn.lock
