@@ -8,7 +8,7 @@ workshop.
 **Clone Repo:**
 
 ```bash
-git clone https://github.com/kennetpostigo/mangosnake.git
+https://github.com/kennetpostigo/mangosnakestarter.git
 ```
 
 **Install Dependencies:**
